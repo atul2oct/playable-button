@@ -1,0 +1,23 @@
+
+.button-area {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  overflow: hidden;
+}
+
+.make-button {
+  position: relative;
+  padding: 14px 28px;
+  border: none;
+  border-radius: 10px;
+  background: #2563eb;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.10s ease;
+  white-space: nowrap;
+}
